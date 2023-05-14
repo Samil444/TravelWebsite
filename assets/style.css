@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding:0 ;
+    list-style-type:none ;
+    text-decoration: none;
+}
+.header{
+width: 100%;
+background: transparent;
+padding: 10px 0 ;
+position: absolute;
+
+
+}
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.container{
+    width: 67%;
+    margin: 0 auto;
+   top: 15%;
+   
+}
+.navList {
+    display: flex;
+
+     
+}
+.navItem{
+    font-size: 15px;
+    padding: 20px 15px;
+    color: #fff;
+    
+
+}
+.navItem a{
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+     font-family: 'Roboto Serif', serif;
+     font-size: 15px;
+   padding: 20px 15px;
+}
+.logo a {
+font-size: 24px;
+color: black;
+ font-weight: 700;
+
+}
+.logo img{
+    top: 20%;
+    position: relative;
+
+}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/travel.png);
+    
+    background-size: cover;
+}
+.heroContent{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
+flex-direction: column;
+
+
+}
+.heroContent p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 46px;
+   color: #fff;
+   right: 34%;
+  position: relative;
+   
+    
+}
+.hero h1{
+    font-size: 66px;
+    text-transform: capitalize;
+ font-weight:700 ;
+  color: #fff;
+  position: relative;
+ z-index: 1;
+ right: 21%;
+}
+.buttonMenu{
+    display: inline-block;
+    padding: 13px 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    background-color: #ffcc00;
+    border: 2px solid transparent;
+    color: black;
+    margin-left: 100px;
+
+}
+.navBar{
+    display: flex;
+    align-items: center;
+}
+.dropItem {
+    padding: 5px 20px;
+    position: relative;
+}
+.dropMenu {
+    color: #fff;
+    background-color: #ffcc00;
+    padding: 25px 0;
+    width: 100px;
+    position: absolute;
+   display: none;
+   
+}
+.navItem:hover .dropMenu {
+    display: block;
+    border-radius: 5px;
+   width: 150px;
+   height: 50px; 
+}
